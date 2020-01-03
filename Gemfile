@@ -52,6 +52,7 @@ group :development do
   gem 'guard', '~> 2.16', '>= 2.16.1'
   # automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'binding_of_caller'
 
 end
 
