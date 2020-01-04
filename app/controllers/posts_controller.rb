@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 class PostsController < ApplicationController
 
-  before_action :set_post, only: [:show, :update, :edit]
+  before_action :set_post, only: [:show, :update, :edit, :destroy]
 
 
   def index
@@ -33,7 +33,11 @@ class PostsController < ApplicationController
   end
 
   def edit
+  end
 
+  def destroy
+    @post.destroy
+    redirect_to posts_path
   end
 
 
