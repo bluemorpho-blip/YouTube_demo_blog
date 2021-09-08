@@ -47,7 +47,7 @@ group :development do
 
   # My Added gems:
   # Make errors better looking
-  gem 'better_errors', '~> 2.5', '>= 2.5.1'
+  gem 'better_errors', '~> 2.8'
   # Guard, command line tool to easily handle events on file system modifications.
   gem 'guard', '~> 2.16', '>= 2.16.1'
   # automatically reloads your browser when 'view' files are modified.
